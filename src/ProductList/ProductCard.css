@@ -1,0 +1,20 @@
+.product-card {
+  margin: 2%;
+  padding: 2%;
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-details {
+  padding: 2px 16px;
+}
+
+img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}

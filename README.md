@@ -1,5 +1,8 @@
 # Pesto Assignment 1
 
+## Problem Statement
+Build a product listing page of an ecommerce app.
+
 ## Acceptance Criteria
 - Scaffold a new project using create-react-app
 - Create a json of products with keys like product_name, price, description, product image
