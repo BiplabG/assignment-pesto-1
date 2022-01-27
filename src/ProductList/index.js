@@ -2,10 +2,9 @@ import productData from "../data/products.json";
 import ProductCard from "./ProductCard";
 import "./ProductList.css";
 
-function ProductList() {
+function ProductList({ selectedItems, setSelectedItems }) {
   return (
     <div className="main">
-      <h2>Products</h2>
       <div className="product-list">
         {productData.products.map((product) => (
           <ProductCard
@@ -14,6 +13,9 @@ function ProductList() {
             description={product.description}
             image_url={product.image_url}
             price={product.price}
+            product_id={product.product_id}
+            selectedItems={selectedItems}
+            setSelectedItems={setSelectedItems}
           />
         ))}
       </div>
